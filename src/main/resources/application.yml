@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/cuit_paimai?serverTimezone=UTC&characterEncoding=utf8&useUnicode=true&useSSL=false
+    url: jdbc:mysql://120.24.35.112:3306/cuit_paimai?serverTimezone=UTC&characterEncoding=utf8&useUnicode=true&useSSL=false
     username: root
-    password: 123456
+    password: syc{this_is_real_flag_and_do_not_connect_mysql}
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
@@ -13,7 +13,7 @@ spring:
       client:
         registration:
           google:
-            client-id: sunshixiong
+            client-id: zzzzzz
             client-secret: 123456
   thymeleaf:
     cache: false
